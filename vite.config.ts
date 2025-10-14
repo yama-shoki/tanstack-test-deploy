@@ -8,7 +8,7 @@ import viteTsConfigPaths from "vite-tsconfig-paths";
 const config = defineConfig({
   plugins: [
     nitroV2Plugin({
-      preset: "vercel",
+      // preset: "vercel",
     }),
     // this is the plugin that enables path aliases
     viteTsConfigPaths({
